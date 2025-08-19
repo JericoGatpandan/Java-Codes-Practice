@@ -1,0 +1,10 @@
+John,28,Manila,Teacher,Mid
+Mike,32,Manila,Engineer,High
+Sarah,25,Davao,Nurse,Mid
+Anna,29,Davao,Designer,Mid
+Paul,40,Iloilo,Manager,High
+Grace,27,Iloilo,Writer,Low
+Leo,35,Cebu,Developer,High
+Liza,31,Cebu,Doctor,High
+Eric,26,Zamboanga,Analyst,Mid
+Jane,30,Zamboanga,Accountant,Mid

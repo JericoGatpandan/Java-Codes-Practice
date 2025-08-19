@@ -1,0 +1,47 @@
+package my_impl_proj;
+
+interface Switchable {
+	void turnOn();
+	void turnOff();
+}
+
+interface Adjustable {
+	void increase();
+	void decrease();
+}
+
+interface Connectable {
+	void connect();
+	void disconnect();
+}
+
+class SmartBulb implements Switchable, Adjustable, Connectable {
+	private boolean isOn = false;
+	private int brightness = 50;
+	private boolean isConnected = false;
+	
+	@Override 
+	public void turnOn() {
+		isOn = true;
+		System.out.println("Smartbulb is turned ON.");
+	}
+	@Override 
+	public void increase() {
+		if (brightness < 100) {
+			brightness += 10;
+			System.out.println("Brightness increased to " + brightness + "%.");
+		} else {
+			System.out.println("Brightness is already at maximum.");
+		}
+	}
+	@Override
+	public void decrease() {
+		if (brightness > 0) {
+			brightness -= 10;
+			System.out.println("Brightness decreased to " + brightness + "%.");
+		} else {
+			System.out.println("Brightness is already at minimum.");
+		}
+	}
+	
+}

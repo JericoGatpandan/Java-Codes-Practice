@@ -1,0 +1,48 @@
+package my_class_proj;
+
+import java.util.Scanner;
+
+public class BooksMenu {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		Book[] books = new Book[10];
+		int bkIdx = 0;
+		
+		while (true) {
+			System.out.println("Press 1 to view books, 2 to add books, any other to exit");
+			String userAction = scanner.nextLine();
+			if(userAction.equals("1")) {
+				for (int i = 0; i < books.length; i++) {
+					if (books[i] != null) {
+						System.out.println(books[i]);
+					}
+				}
+			} else if (userAction.equals("2")) {
+				if (bkIdx == 10) {
+					System.out.println("10 Books added already. Cannot add any more books!"); 
+					continue;
+				}	
+				System.out.print("Enter Book Title: ");
+				String tmpTitle = scanner.nextLine();
+				
+				System.out.print("Enter Book Author: ");
+				String tmpAuthor = scanner.nextLine();
+				
+				System.out.print("Enter Book price: ");
+				float tmpPrice = Float.parseFloat(scanner.nextLine());
+				
+				Book bkTmp = new Book();
+				bkTmp.setTitle(tmpTitle);
+				bkTmp.setAuthor(tmpAuthor);
+				bkTmp.setPrice(tmpPrice);
+				books[bkIdx++] = bkTmp;
+				
+			}
+			else {
+				break;
+			}
+			
+		}
+		
+	}
+}

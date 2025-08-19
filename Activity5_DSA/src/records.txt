@@ -1,0 +1,14 @@
+1,1,Male
+jdasjj,18,Male
+Jerico,19,Male
+Jerico,19,Male
+Jerico,1,Male
+Jerico,19,Male
+1,1,Male
+Jerico,5,Male
+Jeric,1,Male
+Ana,12,Female
+Bing,14,Female
+Jerico,19,Male
+Dolly,13,Female
+Eric,14,Male

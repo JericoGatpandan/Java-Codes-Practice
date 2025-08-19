@@ -1,0 +1,7 @@
+
+public class MainClass {
+	public static void main(String[] args) {
+		// Use constructors to create new Employee and LeaveRequest objects
+		
+	}
+}
