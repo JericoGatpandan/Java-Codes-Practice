@@ -1,9 +1,0 @@
-package my_poly_proj;
-
-public class AnimalFarm {
-	Animal animal1 = new Dog("Sami");
-	Animal animal2 = new Cat("Hershery");
-	Animal animal3 = new Cow("Molly");
-	
-	System.out.println("animal1 sound " + animal1.so)
-}

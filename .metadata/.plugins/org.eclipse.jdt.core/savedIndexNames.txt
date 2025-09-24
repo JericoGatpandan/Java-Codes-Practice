@@ -1,8 +1,0 @@
-INDEX VERSION 1.134+/home/jerico/Workspace/Java Programming/.metadata/.plugins/org.eclipse.jdt.core
-2961345040.index
-3672224818.index
-1422589671.index
-2964305115.index
-1865797976.index
-661392061.index
-25960990.index

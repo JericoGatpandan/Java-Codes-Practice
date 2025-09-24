@@ -1,3 +1,0 @@
-System.out.println("Enter what the cow eats");
-                    String cowFood = scanner.nextLine();
-                    anmlTmp.setFood(cowFood);
